@@ -2,18 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>CodeRepository</artifactId>
+        <groupId>com.allen</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.allen</groupId>
-    <artifactId>CodeRepository</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-
-    <modules>
-        <module>wsdlService</module>
-        <module>thread</module>
-        <module>blockingQueue</module>
-    </modules>
+    <artifactId>blockingQueue</artifactId>
 
 
 </project>
