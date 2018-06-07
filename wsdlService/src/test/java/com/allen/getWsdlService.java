@@ -20,9 +20,9 @@ public class getWsdlService {
      */
     static void sendWebService() {
         //线程外部传参不可以
-        String url="http://localhost:1008/webservice/protocolservice/protocolManagerService?wsdl"; //wsdl地址
+        String url="http://localhost:8080/webservice/protocolservice/ProtocolManagerService?wsdl"; //wsdl地址
         String tns = "/method";  									   //命名空间
-        String method="notify";
+        String method="notifying";
 
         try {
             RPCServiceClient serviceClient = new RPCServiceClient();

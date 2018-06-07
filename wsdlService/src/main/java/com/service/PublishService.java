@@ -28,7 +28,7 @@ public class PublishService extends HttpServlet {
      * @throws ServletException if an error occurs
      */
     public void init(ServletConfig config) throws ServletException {
-        Endpoint.publish("http://localhost:1008/webservice/protocolservice/protocolManagerService", new Service());
+        Endpoint.publish("http://localhost:8080/webservice/protocolservice/ProtocolManagerService", new Service());
         System.out.println("发布成功!");
     }
 

@@ -16,7 +16,7 @@ public class Service {
      * @return
      * @return String
      */
-    @WebMethod(operationName = "notify")
+    @WebMethod(operationName = "notifying")
     public void notify(String operationType,String protocolType,String protocolName,
                        String protocolId){
         System.out.println("================wsdlservice收到===============");
