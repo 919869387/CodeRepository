@@ -14,6 +14,7 @@
         <module>thread</module>
         <module>blockingQueue</module>
         <module>socket</module>
+        <module>reflect</module>
     </modules>
 
 
