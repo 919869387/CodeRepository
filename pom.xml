@@ -15,6 +15,7 @@
         <module>blockingQueue</module>
         <module>socket</module>
         <module>reflect</module>
+        <module>netty</module>
     </modules>
 
 
