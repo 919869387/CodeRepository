@@ -16,6 +16,7 @@
         <module>socket</module>
         <module>reflect</module>
         <module>netty</module>
+        <module>hadoop</module>
     </modules>
 
 
